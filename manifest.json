@@ -1,33 +1,24 @@
 {
-    "version":  "1.0.2",
-    "appVersion":  "1.0.0",
-    "releasedAt":  "2026-10-03",
-    "changelog":  [
-                      "╪Ñ╪╢╪º┘ü╪⌐ ╪¿┘ä┘ê┘é┘å╪º╪¬ FakeSenderMessage ┘ê RoleMention ┘ä┘ä╪¬┘ê╪▓┘è╪╣",
-                      "╪Ñ╪╡┘ä╪º╪¡ ╪¼┘à┘è╪╣ ╪½╪║╪▒╪º╪¬ StayInChannel (╪▒╪¼┘ê╪╣ ╪¿┘ä╪º ╪¡╪»┘ê╪»)"
-                  ],
-    "plugins":  [
-                    {
-                        "name":  "FakeSenderMessage",
-                        "desc":  "Ù…Ù†Ø´Ù† Ø´Ø®Øµ Ø¨Ø§Ù„Ø³Ø·Ø± Ø§Ù„Ø£ÙˆÙ„ ÙˆØªØ­ØªÙ‡ \\"
-                    },
-                    {
-                        "name":  "RoleMention",
-                        "desc":  "Allows you to mention a role and get a hidden message with all users who have that role"
-                    },
-                    {
-                        "name":  "ScreenShareHotkey",
-                        "desc":  "Ø§Ø®ØªØµØ§Ø± Ø¹Ø§Ù… (ÙŠØ´ØªØºÙ„ Ø­ØªÙ‰ ÙˆØ§Ù†Øª ØªÙ„Ø¹Ø¨) ÙŠÙØªØ­/ÙŠÙ‚ÙÙ„ Ù…Ø´Ø§Ø±ÙƒØ© Ø§Ù„Ø´Ø§Ø´Ø© ÙÙŠ Ø±ÙˆÙ…Ùƒ Ø§Ù„ØµÙˆØªÙŠ. Ø§Ø®ØªØ± Ø´Ø§Ø´Ø© 1 Ø£Ùˆ 2 Ù…Ù† Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª."
-                    },
-                    {
-                        "name":  "StayInChannel",
-                        "desc":  "ÙŠØ±Ø¬Ù‘Ø¹Ùƒ ÙÙˆØ±Ø§Ù‹ Ù„Ù„Ø±ÙˆÙ… Ø§Ù„ØµÙˆØªÙŠ Ø¥Ø°Ø§ Ø£Ø­Ø¯ Ø³Ø­Ø¨Ùƒ Ø£Ùˆ Ø·Ø±Ø¯Ùƒ (ÙÙ‚Ø· Ø¥Ø°Ø§ Ø¹Ù†Ø¯Ùƒ ØµÙ„Ø§Ø­ÙŠØ© Ø¯Ø®ÙˆÙ„ Ø§Ù„Ø±ÙˆÙ…). Ù…Ø³ØªØ­ÙŠÙ„ ÙŠØ³ØªØ³Ù„Ù… Ù…Ù‡Ù…Ø§ ØªÙƒØ±Ø± Ø§Ù„Ø³Ø­Ø¨. Ø£Ø·ÙÙ Ø§Ù„Ø¨Ù„ÙˆÙ‚Ù† Ù„Ø¥ÙŠÙ‚Ø§Ù Ø§Ù„Ø­Ù…Ø§ÙŠØ©."
-                    }
-                ],
-    "files":  {
-                  "patcher.js":  "a35069ec7834c7aba566cbfb8db0dc0c24a036ac987498e8741bf2a06cf885cf",
-                  "preload.js":  "0450b10562cb2102532b20d4de266dba6c248148c34858d7407e58f32771d9b1",
-                  "renderer.js":  "f692e1a8ecb04f518f75f0f8f0f4e35f1e61ff3978edcf4e378448cb3431537a",
-                  "renderer.css":  "87aa986968c08afd21ea9b36d4e204ee07e2608b50a1371d4a20fc8fac1e994f"
-              }
+  "version": "1.1.0",
+  "appVersion": "3.0.0",
+  "vencord": "b52ed36",
+  "releasedAt": "2026-10-03",
+  "changelog": [
+    "تحديث فينكورد لآخر نسخة + بناء standalone (المحدّث الذاتي مطفّأ) ✅",
+    "هذا يصلّح كراش إعدادات البلوقنات (That also failed)",
+    "تطبيق جديد كلياً: PLUG Vencord Studio بواجهة متحركة واحترافية",
+    "StayInChannel: رجوع للروم بلا حدود (مستحيل يستسلم)"
+  ],
+  "plugins": [
+    { "name": "ScreenShareHotkey", "desc": "اختصار عام يفتح/يقفل مشاركة الشاشة (حتى داخل اللعبة)" },
+    { "name": "StayInChannel", "desc": "يرجّعك للروم الصوتي لو أحد سحبك أو طردك" },
+    { "name": "FakeSenderMessage", "desc": "يخلي رسالة محلية تبين كأنها من Clyde" },
+    { "name": "RoleMention", "desc": "منشن رتبة ويطلّع لك مين فيها" }
+  ],
+  "files": {
+    "patcher.js": "e0d543e324cf3a53830a92ac6f00ce1412d6df1976c6ec398d9ed3af1d3112f7",
+    "preload.js": "ed0fa593855a0508bfebf2de14a0ef0110fc27853d8937574493fe2de2eda198",
+    "renderer.js": "485ed97a132c558c22569a65117b4ce0316e523ea3fd025421e2962137ee6e86",
+    "renderer.css": "861f40ea0556d6fb31f992f97173485441d57dbc8a90ed7be7c4ae797c8d7ed1"
+  }
 }
