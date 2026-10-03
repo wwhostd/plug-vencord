@@ -1,9 +1,10 @@
 {
-    "version":  "1.0.1",
+    "version":  "1.0.2",
     "appVersion":  "1.0.0",
     "releasedAt":  "2026-10-03",
     "changelog":  [
-                      "╪º╪«╪¬╪¿╪º╪▒ ╪ú╪»╪º╪⌐ ╪º┘ä┘å╪┤╪▒ ╪º┘ä╪¬┘ä┘é╪º╪ª┘è"
+                      "╪Ñ╪╢╪º┘ü╪⌐ ╪¿┘ä┘ê┘é┘å╪º╪¬ FakeSenderMessage ┘ê RoleMention ┘ä┘ä╪¬┘ê╪▓┘è╪╣",
+                      "╪Ñ╪╡┘ä╪º╪¡ ╪¼┘à┘è╪╣ ╪½╪║╪▒╪º╪¬ StayInChannel (╪▒╪¼┘ê╪╣ ╪¿┘ä╪º ╪¡╪»┘ê╪»)"
                   ],
     "plugins":  [
                     {
@@ -26,7 +27,7 @@
     "files":  {
                   "patcher.js":  "a35069ec7834c7aba566cbfb8db0dc0c24a036ac987498e8741bf2a06cf885cf",
                   "preload.js":  "0450b10562cb2102532b20d4de266dba6c248148c34858d7407e58f32771d9b1",
-                  "renderer.js":  "516289d18bf8e1bbd5893c49f1e2180f6bff939ee29d574c043a481c2fed5038",
+                  "renderer.js":  "f692e1a8ecb04f518f75f0f8f0f4e35f1e61ff3978edcf4e378448cb3431537a",
                   "renderer.css":  "87aa986968c08afd21ea9b36d4e204ee07e2608b50a1371d4a20fc8fac1e994f"
               }
 }
