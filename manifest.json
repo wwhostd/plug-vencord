@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "appVersion": "1.0.0",
+  "releasedAt": "2026-10-03",
+  "changelog": [
+    "الإصدار الأول 🎉",
+    "ScreenShareHotkey — اختصار عام يفتح/يقفل مشاركة الشاشة (يشتغل حتى داخل اللعبة)",
+    "StayInChannel — يرجّعك للروم الصوتي فوراً لو أحد سحبك أو طردك (بدون ثغرات، مستحيل يستسلم)"
+  ],
+  "plugins": [
+    {
+      "name": "ScreenShareHotkey",
+      "desc": "اختصار عام يفتح/يقفل مشاركة الشاشة في رومك الصوتي"
+    },
+    {
+      "name": "StayInChannel",
+      "desc": "يرجّعك للروم الصوتي لو أحد سحبك أو طردك"
+    }
+  ],
+  "files": {
+    "patcher.js": "a35069ec7834c7aba566cbfb8db0dc0c24a036ac987498e8741bf2a06cf885cf",
+    "preload.js": "0450b10562cb2102532b20d4de266dba6c248148c34858d7407e58f32771d9b1",
+    "renderer.js": "b3b705b1511831faec83467cb677d902c4e97e1b7426a96bc43f2b413ea9a2bc",
+    "renderer.css": "87aa986968c08afd21ea9b36d4e204ee07e2608b50a1371d4a20fc8fac1e994f"
+  }
+}
