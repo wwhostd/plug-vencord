@@ -1,26 +1,32 @@
 {
-  "version": "1.0.0",
-  "appVersion": "1.0.0",
-  "releasedAt": "2026-10-03",
-  "changelog": [
-    "الإصدار الأول 🎉",
-    "ScreenShareHotkey — اختصار عام يفتح/يقفل مشاركة الشاشة (يشتغل حتى داخل اللعبة)",
-    "StayInChannel — يرجّعك للروم الصوتي فوراً لو أحد سحبك أو طردك (بدون ثغرات، مستحيل يستسلم)"
-  ],
-  "plugins": [
-    {
-      "name": "ScreenShareHotkey",
-      "desc": "اختصار عام يفتح/يقفل مشاركة الشاشة في رومك الصوتي"
-    },
-    {
-      "name": "StayInChannel",
-      "desc": "يرجّعك للروم الصوتي لو أحد سحبك أو طردك"
-    }
-  ],
-  "files": {
-    "patcher.js": "a35069ec7834c7aba566cbfb8db0dc0c24a036ac987498e8741bf2a06cf885cf",
-    "preload.js": "0450b10562cb2102532b20d4de266dba6c248148c34858d7407e58f32771d9b1",
-    "renderer.js": "b3b705b1511831faec83467cb677d902c4e97e1b7426a96bc43f2b413ea9a2bc",
-    "renderer.css": "87aa986968c08afd21ea9b36d4e204ee07e2608b50a1371d4a20fc8fac1e994f"
-  }
+    "version":  "1.0.1",
+    "appVersion":  "1.0.0",
+    "releasedAt":  "2026-10-03",
+    "changelog":  [
+                      "╪º╪«╪¬╪¿╪º╪▒ ╪ú╪»╪º╪⌐ ╪º┘ä┘å╪┤╪▒ ╪º┘ä╪¬┘ä┘é╪º╪ª┘è"
+                  ],
+    "plugins":  [
+                    {
+                        "name":  "FakeSenderMessage",
+                        "desc":  "Ù…Ù†Ø´Ù† Ø´Ø®Øµ Ø¨Ø§Ù„Ø³Ø·Ø± Ø§Ù„Ø£ÙˆÙ„ ÙˆØªØ­ØªÙ‡ \\"
+                    },
+                    {
+                        "name":  "RoleMention",
+                        "desc":  "Allows you to mention a role and get a hidden message with all users who have that role"
+                    },
+                    {
+                        "name":  "ScreenShareHotkey",
+                        "desc":  "Ø§Ø®ØªØµØ§Ø± Ø¹Ø§Ù… (ÙŠØ´ØªØºÙ„ Ø­ØªÙ‰ ÙˆØ§Ù†Øª ØªÙ„Ø¹Ø¨) ÙŠÙØªØ­/ÙŠÙ‚ÙÙ„ Ù…Ø´Ø§Ø±ÙƒØ© Ø§Ù„Ø´Ø§Ø´Ø© ÙÙŠ Ø±ÙˆÙ…Ùƒ Ø§Ù„ØµÙˆØªÙŠ. Ø§Ø®ØªØ± Ø´Ø§Ø´Ø© 1 Ø£Ùˆ 2 Ù…Ù† Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª."
+                    },
+                    {
+                        "name":  "StayInChannel",
+                        "desc":  "ÙŠØ±Ø¬Ù‘Ø¹Ùƒ ÙÙˆØ±Ø§Ù‹ Ù„Ù„Ø±ÙˆÙ… Ø§Ù„ØµÙˆØªÙŠ Ø¥Ø°Ø§ Ø£Ø­Ø¯ Ø³Ø­Ø¨Ùƒ Ø£Ùˆ Ø·Ø±Ø¯Ùƒ (ÙÙ‚Ø· Ø¥Ø°Ø§ Ø¹Ù†Ø¯Ùƒ ØµÙ„Ø§Ø­ÙŠØ© Ø¯Ø®ÙˆÙ„ Ø§Ù„Ø±ÙˆÙ…). Ù…Ø³ØªØ­ÙŠÙ„ ÙŠØ³ØªØ³Ù„Ù… Ù…Ù‡Ù…Ø§ ØªÙƒØ±Ø± Ø§Ù„Ø³Ø­Ø¨. Ø£Ø·ÙÙ Ø§Ù„Ø¨Ù„ÙˆÙ‚Ù† Ù„Ø¥ÙŠÙ‚Ø§Ù Ø§Ù„Ø­Ù…Ø§ÙŠØ©."
+                    }
+                ],
+    "files":  {
+                  "patcher.js":  "a35069ec7834c7aba566cbfb8db0dc0c24a036ac987498e8741bf2a06cf885cf",
+                  "preload.js":  "0450b10562cb2102532b20d4de266dba6c248148c34858d7407e58f32771d9b1",
+                  "renderer.js":  "516289d18bf8e1bbd5893c49f1e2180f6bff939ee29d574c043a481c2fed5038",
+                  "renderer.css":  "87aa986968c08afd21ea9b36d4e204ee07e2608b50a1371d4a20fc8fac1e994f"
+              }
 }
