@@ -1,18 +1,22 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "appVersion": "3.0.0",
   "vencord": "b52ed36",
   "releasedAt": "2026-10-03",
   "changelog": [
-    "تيست"
+    "تييسستت"
   ],
   "plugins": [
+    { "name": "FakeSenderMessage", "desc": "منشن شخص بالسطر الأول وتحته \\" },
+    { "name": "RoleMention", "desc": "Allows you to mention a role and get a hidden message with all users who have that role" },
+    { "name": "ScreenShareHotkey", "desc": "اختصار عام (يشتغل حتى وانت تلعب) يفتح/يقفل مشاركة الشاشة في رومك الصوتي. اختر شاشة 1 أو 2 من الإعدادات." },
+    { "name": "StayInChannel", "desc": "يرجّعك فوراً للروم الصوتي إذا أحد سحبك أو طردك (فقط إذا عندك صلاحية دخول الروم). مستحيل يستسلم مهما تكرر السحب. أطفِ البلوقن لإيقاف الحماية." },
     { "name": "VoiceRadar", "desc": "رادار الأصوات: يورّيك وين أصحابك يتكلمون الحين بكل السيرفرات، دخول بضغطة، وتنبيه لما شخص بنجمة يدخل مايك." }
   ],
   "files": {
     "patcher.js": "e0d543e324cf3a53830a92ac6f00ce1412d6df1976c6ec398d9ed3af1d3112f7",
     "preload.js": "ed0fa593855a0508bfebf2de14a0ef0110fc27853d8937574493fe2de2eda198",
-    "renderer.js": "48f5dff6f5da963db03f2c27a925783bc86bca06b8da711aeeeb57238f5ce438",
+    "renderer.js": "6702ff5dec826b969a94342ca7c85fc5352c18fd4c4c449c8ecba6c79a68e784",
     "renderer.css": "861f40ea0556d6fb31f992f97173485441d57dbc8a90ed7be7c4ae797c8d7ed1"
   }
 }
