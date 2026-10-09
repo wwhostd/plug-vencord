@@ -24,7 +24,7 @@
   "files": {
     "patcher.js": "2894f0c4cbdc3560ebe287033db021451914f4a78215c0b669f8858cdfc65364",
     "preload.js": "7424cda82b50ad30376dbd5a3d45349dd21d1410c2aaa0b0f0a860184a806507",
-    "renderer.js": "8ff5085c13081d35419f3e5e281930ebf6ac04e4696a7ef52824d0aa6b10f8ca",
+    "renderer.js": "19f08872ad937ebb524697756d7f738ca545ff2428b27aea6943b112b319f96a",
     "renderer.css": "432cc084d33adace050e4e6f7e9496e81ccb0446217eff28120cc24ab44ba5f5"
   }
 }
